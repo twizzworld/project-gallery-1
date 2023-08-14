@@ -146,7 +146,7 @@ function Frame({ url, c = new THREE.Color(), ...props }) {
         anchorY="top"
         position={[0.55, GOLDENRATIO, 0]}
         fontSize={0.025}
-        onClick={() => (window.location.href = `https://www.${name}.vercel.app`)}>
+        onClick={() => (window.location.href = `https://${name}.vercel.app`)}>
         {name.split('-').join(' ')}
       </Text>
     </group>
